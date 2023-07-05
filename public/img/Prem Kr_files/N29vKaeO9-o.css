@@ -1,0 +1,4 @@
+._abya{background-color:rgb(var(--ig-primary-background));border:1px solid rgb(var(--ig-elevated-separator));border-radius:3px;margin:60px auto 0;max-width:935px;overflow:hidden}._abya:empty{border:none}
+._abdw{animation:IGCoreSpinnerSpin8 .8s steps(8) infinite}._abdx{animation:IGCoreSpinnerSpin12 1.2s steps(12) infinite}._abdw._abdv,._abdx._abdv{animation:none}._abdu{left:50%;position:absolute!important;top:50%;transform:translate(-50%, -50%)}@keyframes IGCoreSpinnerSpin8{0%{transform:rotate(180deg)}100%{transform:rotate(540deg)}}@keyframes IGCoreSpinnerSpin12{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}/*FB_PKG_DELIM*/
+
+#bootloader_dDCEwF9{height:42px;}.bootloader_dDCEwF9{display:block!important;}
