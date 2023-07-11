@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ScopeController;
+use App\Http\Controllers\RegsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,4 +40,6 @@ Route::get('/profile', function () {
     return view('profile');
 });
 
-Route::post('/submit',[ScopeController::class,'submit']);
+Route::post('/submit',[RegsController::class,'submit']);
+Route::post('/login',[RegsController::class,'login']);
+Route::post('/logout',[RegsController::class,'logout']);

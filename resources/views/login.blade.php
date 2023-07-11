@@ -32,7 +32,8 @@
                     <div class="col-lg-7">
                         <div class="wow fadeInUp" data-wow-delay="0.3s">
                             <!-- <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                            <form>
+                            <form method="post" action="" >
+                                @csrf
                                 <div class="row g-3">
                                     <!-- <div class="col-md-6">
                                         <div class="form-floating">
@@ -48,13 +49,13 @@
                                     </div> -->
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text" class="form-control" id="subject" name="email" placeholder="Subject">
                                             <label for="subject">Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text" class="form-control" name="password" id="subject" placeholder="Subject">
                                             <label for="subject">Password</label>
                                         </div>
                                     </div>

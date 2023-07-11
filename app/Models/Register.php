@@ -10,5 +10,5 @@ class Register extends Model
 {
     use HasFactory;
     protected $table='register';
-    protected $fillable=['first_name','last_name','email','phone_number','gender','date_of_birth','country','state','city','hobbies','avatar'];
+    protected $fillable=['first_name','last_name','email','phone_number','gender','date_of_birth','country','state','city','hobbies','avatar','user_id'];
 }

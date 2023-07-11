@@ -25,6 +25,9 @@ return new class extends Migration
             $table->string('city');
             $table->set('hobbies',['Sports','Music','Vedio_Games','Travel']);
             $table->string('avatar');
+            $table->unsignedBigInteger('user_id'); 
+            $table->foreign('user_id')->references('id')->on('users'); 
+        
         });
     }
 

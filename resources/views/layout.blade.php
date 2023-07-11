@@ -82,7 +82,7 @@
                                 <a href="courses" class="dropdown-item">Search Courses</a>
                                 <a href="profile" class="dropdown-item">Profile Edit</a>
                                 <a href="changepassword" class="dropdown-item">Change Password</a>
-                                <a href="404.html" class="dropdown-item">LogOut</a>
+                                <a href="/logout" class="dropdown-item">LogOut</a>
                             </div>
                         </div>
 
@@ -109,15 +109,21 @@
       <!-- Footer Start --> 
 
     <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
-      <div class="container row">
-                            <div class="col-3">
-                            </div>
-                            <div class="col-3">
-                            </div>
+                        <div class="container row">
+                           
                             <div class="col-6">
                                 <img class="img-fluid animated zoomIn m-auto" src="img/footer.png" alt="">
                             </div>
-      </div>
+                            </div>
+                        <div class="container row">
+                        
+                            <div class="col-6">
+                                <img  class="img-fluid animated zoomIn m-auto" src="img/iaf.png" alt="">
+                            </div>
+                        </div>
+        </div>
+       
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5 px-lg-5">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-3">
@@ -131,24 +137,26 @@
                             <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/scopeindia/"><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://in.linkedin.com/company/scope-india"><i class="fab fa-linkedin-in"></i></a>
                         </div>
+                               
+                    
                     </div>
-                           
-                           
-                   
+                </div>
+            </div>        
                            
                    
                     <!-- <div class="col-md-12 col-lg-6">
                        
                     </div> -->
-                    <!-- <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
+                     <!--<div class=" col-md-6 col-lg-6">
+                      <p class="section-title text-white h5 mb-4">Quick Link<span></span></p>
                         <a class="btn btn-link" href="">About Us</a>
                         <a class="btn btn-link" href="">Contact Us</a>
                         <a class="btn btn-link" href="">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
+                         <a class="btn btn-link" href="">Career</a> 
+                            
+                    </div>-->
+                    <!--<div class="col-md-6 col-lg-3">
                         <p class="section-title text-white h5 mb-4">Gallery<span></span></p>
                         <div class="row g-2">
                             <div class="col-4">
@@ -170,17 +178,17 @@
                                 <img class="img-fluid" src="img/portfolio-6.jpg" alt="Image">
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
+                    </div>-->
+                   
+                        <!--<p class="section-title text-white h5 mb-4">Newsletter<span></span></p>
                         <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
                         <div class="position-relative w-100 mt-3">
                             <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
                             <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary fs-4"></i></button>
-                        </div>
-                    </div> -->
-                </div>
-            </div> 
+                        </div>-->
+                    <!-- </div>  -->
+                
+        
             
             <div class="container px-lg-5">
                 <div class="copyright">
